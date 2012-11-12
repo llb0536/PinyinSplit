@@ -1,5 +1,5 @@
 # -*- encoding : utf-8 -*-
-require 'pinyin_split/slipt.rb'
+
 class PinyinSplit 
   # Lost gem for Pinyin*
   #
@@ -23,5 +23,6 @@ class PinyinSplit
   def self.splitArray(source)
     self.slipt(source)
   end
-  
 end
+
+require 'pinyin_split/slipt.rb'
