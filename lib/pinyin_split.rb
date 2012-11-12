@@ -10,7 +10,7 @@ class PinyinSplit
   # Arguments:
   #   source: (String)
   def self.split(source)
-    self.slipt(source).join(' ')
+    Slipt.slipt(source).join(' ')
   end
   
   # Example:
@@ -21,7 +21,7 @@ class PinyinSplit
   #   source: (String)
   
   def self.splitArray(source)
-    self.slipt(source)
+    Slipt.slipt(source)
   end
 end
 
