@@ -6,7 +6,7 @@
 ```
 Example:
 >> PinyinSplit.split("wolegequ")
-=> wo le ge qu
+=> "wo le ge qu"
 
 Arguments:
 	source: (String)
